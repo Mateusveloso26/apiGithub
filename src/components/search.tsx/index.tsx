@@ -9,7 +9,7 @@ export function Search({ loadUser }: SearchProps) {
 
   return (
     <div className="flex w-full flex-col justify-center items-center gap-4 p-8">
-      <h2 className="text-2xl">Pesquise por um usuário:</h2>
+      <h2 className="text-2xl">Buscar por um usuário:</h2>
       <input
         type="text"
         placeholder="Digite o nome do usuário"

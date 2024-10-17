@@ -50,9 +50,9 @@ export function App() {
 
   return (
     <div className="w-full h-screen mx-auto flex flex-col items-center  bg-indigo-900 overflow-y-scroll">
-      <img src={logoImg} alt="logo do github" className="w-40 mx-auto my-6" />
+      <img src={logoImg} alt="logo do github" className="w-40 mx-auto my-4" />
 
-      <div className="flex flex-col w-full max-w-2xl gap-4 my-2 bg-indigo-700   text-white rounded-lg p-4">
+      <div className="flex flex-col w-full max-w-2xl gap-4 my-2 bg-indigo-500 text-white rounded-2xl p-4">
         <Search loadUser={loadUser}/>
       </div>
 
@@ -65,7 +65,7 @@ export function App() {
       )}
 
       {user && (
-        <div className="flex flex-col w-full max-w-2xl gap-4  bg-indigo-700 my-6 rounded-lg p-8">
+        <div className="flex flex-col w-full max-w-2xl gap-4  bg-indigo-500 my-4 rounded-2xl p-8">
           <div className="flex flex-col items-center justify-center gap-4">
             <img
               src={user.avatar_url}
